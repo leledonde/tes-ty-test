@@ -24,8 +24,6 @@ const Footer = () => {
                     <ul className="space-y-2">
                         <li><a href="#" className="hover:text-white transition">All Villas</a></li>
                         <li><a href="#" className="hover:text-white transition">Destinations</a></li>
-                        <li><a href="#" className="hover:text-white transition">Special Offers</a></li>
-                        <li><a href="#" className="hover:text-white transition">Gift Cards</a></li>
                     </ul>
                 </div>
                 
@@ -58,7 +56,7 @@ const Footer = () => {
             </div>
             
             <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p>© 2025 TadaNetwork. All rights reserved.</p>
+                <p>© 2025 Poolvilla. All rights reserved.</p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
                     <a href="#" className="hover:text-white transition">Privacy Policy</a>
                     <a href="#" className="hover:text-white transition">Terms of Service</a>

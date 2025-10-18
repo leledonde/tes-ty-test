@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import * as Icon from 'react-feather';
+import Logo from './Logo'
+import DropDownListMenu from './DropDownListMenu'
+
 
 const Navbar = () => {
   return (
@@ -8,14 +10,13 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16 items-center">
                 <div className="flex items-center">
-                    <Icon.Droplet className="pool-icon w-6 h-6" />
-                    <span className="ml-2 text-xl font-light text-sky-500">Villas Pattaya</span>
+                    <Logo />
+                    <span className="ml-2 text-xl font-light text-sky-500">พูลวิลล่า</span>
                 </div>
                 <div className="hidden md:flex space-x-8">
-                    <Link href={'/'} className="text-gray-700 hover:text-sky-500 transition">Home</Link>
-                    <Link href={'/villas'} className="text-gray-700 hover:text-sky-500 transition">Villas</Link>
-                    <Link href={'/signin'} className="text-gray-700 hover:text-sky-500 transition">Signin</Link>
-                    <Link href={'/signup'} className="text-gray-700 hover:text-sky-500 transition">Signup</Link>
+                    <button><Link href={'/'} className="text-gray-700 hover:text-sky-500 transition">หน้าแรก</Link></button>
+                    <button><Link href={'/villas'} className="text-gray-700 hover:text-sky-500 transition">บ้านทั้งหมด</Link></button>
+                    <DropDownListMenu />
                 </div>
                 <button className="md:hidden">
                     <i data-feather="menu" className="w-6 h-6 text-gray-700"></i>

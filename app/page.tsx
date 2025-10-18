@@ -9,15 +9,12 @@ const page = () => {
     <div>
       <section className="hero-bg pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-light text-gray-800 mb-6">Find Your Private <span className="text-sky-500">Villas</span></h1>
+              <h1 className="text-4xl md:text-6xl font-light text-gray-800 mb-6">บ้านพัก <span className="text-sky-500">พูลวิลล่า</span></h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10">Exclusive pool villas in Pattaya for u!</p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <Link href={'/villas'}>
                   <button className="bg-sky-500 hover:bg-sky-600 text-white px-6 py-3 rounded-full transition shadow-lg">Explore Villas</button>
                   </Link>
-                  <a href='https://nextjs.org/docs/app/api-reference/components/link'>
-                  <button className="border border-sky-500 text-sky-500 hover:bg-sky-50 px-6 py-3 rounded-full transition">Watch Video </button>
-                  </a>
               </div>
           </div>
       </section>
@@ -94,7 +91,7 @@ const page = () => {
                           <div className="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-medium">From $520/night</div>
                       </div>
                       <div className="p-6">
-                          <h3 className="text-xl font-semibold text-gray-800 mb-2">house3</h3>
+                          <h3 className="text-xl font-semibold text-gray-800 mb-2">House3</h3>
                           <div className="flex items-center text-gray-600 mb-4">
                               <Icon.MapPin className="w-4 h-4 mr-1" />
                               <span className="text-sm">Land of Smile</span>
