@@ -33,7 +33,7 @@ const signin = () => {
                 </button>
                 
                 <div className="text-center text-sm text-gray-600">
-                    Don't have an account? 
+                    Dont have an account? 
                     <a href="/signup" className="text-sky-500 hover:text-sky-600 font-medium">  Sign up</a>
                 </div>
                 
